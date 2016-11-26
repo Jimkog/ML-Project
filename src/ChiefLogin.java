@@ -71,7 +71,7 @@ public class ChiefLogin {
 		frame.getContentPane().add(button_1);
 		
 		JLabel label_2 = new JLabel("");
-		label_2.setIcon(new ImageIcon("C:\\Users\\Jimkog\\Desktop\\chief.png"));
+		label_2.setIcon(new ImageIcon("C:\\Users\\Jimkog\\workspace\\ML Project\\Pictures\\chief.png"));
 		label_2.setBounds(10, 11, 207, 129);
 		frame.getContentPane().add(label_2);
 	}

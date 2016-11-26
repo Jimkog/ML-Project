@@ -72,7 +72,7 @@ public class HRLogin {
 		frame.getContentPane().add(btnCancel);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon("C:\\Users\\Jimkog\\Desktop\\Untitled-2.png"));
+		label.setIcon(new ImageIcon("C:\\Users\\Jimkog\\workspace\\ML Project\\Pictures\\Untitled-2.png"));
 		label.setBounds(10, 11, 207, 129);
 		frame.getContentPane().add(label);
 	}

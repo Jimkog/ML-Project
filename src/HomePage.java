@@ -65,7 +65,7 @@ public class HomePage {
 		frame.getContentPane().add(btnChiefLogin);
 		
 		JLabel label = new JLabel("");
-		label.setIcon(new ImageIcon("C:\\Users\\Jimkog\\Desktop\\welcome.png"));
+		label.setIcon(new ImageIcon("C:\\Users\\Jimkog\\workspace\\ML Project\\Pictures\\welcome.png"));
 		label.setBounds(10, 11, 427, 195);
 		frame.getContentPane().add(label);
 	}
