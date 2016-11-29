@@ -48,7 +48,7 @@ public class HomePage {
 		btnHrLogin.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				HRLogin nw = new HRLogin();
-				nw.NewScreen();
+				HRLogin.NewScreen();
 			}
 		});
 		btnHrLogin.setBounds(66, 212, 105, 47);

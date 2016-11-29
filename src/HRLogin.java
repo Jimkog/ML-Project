@@ -6,12 +6,13 @@ import javax.swing.JLabel;
 import javax.swing.JButton;
 import javax.swing.SwingConstants;
 import javax.swing.ImageIcon;
+import javax.swing.JPasswordField;
 
 public class HRLogin {
 
 	private JFrame frame;
-	private JTextField textField;
-	private JTextField textField_1;
+	private JTextField unhr;
+	private JPasswordField passwordFieldhr;
 
 	/**
 	 * Launch the application.
@@ -41,39 +42,34 @@ public class HRLogin {
 	 */
 	private void initialize() {
 		frame = new JFrame();
-		frame.setBounds(100, 100, 243, 339);
+		frame.setBounds(100, 100, 272, 339);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.getContentPane().setLayout(null);
 		
-		textField = new JTextField();
-		textField.setBounds(71, 151, 138, 20);
-		frame.getContentPane().add(textField);
-		textField.setColumns(10);
-		
-		textField_1 = new JTextField();
-		textField_1.setBounds(71, 193, 138, 20);
-		frame.getContentPane().add(textField_1);
-		textField_1.setColumns(10);
+		unhr = new JTextField();
+		unhr.setBounds(91, 151, 138, 33);
+		frame.getContentPane().add(unhr);
+		unhr.setColumns(10);
 		
 		JLabel lblUsername = new JLabel("Username:");
-		lblUsername.setBounds(10, 154, 58, 14);
+		lblUsername.setBounds(23, 160, 58, 14);
 		frame.getContentPane().add(lblUsername);
 		
 		JLabel lblPassword = new JLabel("Password:");
-		lblPassword.setBounds(10, 196, 58, 14);
+		lblPassword.setBounds(23, 202, 58, 14);
 		frame.getContentPane().add(lblPassword);
 		
-		JButton btnLogin = new JButton("Login");
-		btnLogin.setBounds(10, 241, 89, 48);
-		frame.getContentPane().add(btnLogin);
-		
-		JButton btnCancel = new JButton("Cancel");
-		btnCancel.setBounds(120, 241, 89, 48);
-		frame.getContentPane().add(btnCancel);
+		JButton btnLoghr = new JButton("Login");
+		btnLoghr.setBounds(91, 241, 89, 48);
+		frame.getContentPane().add(btnLoghr);
 		
 		JLabel label = new JLabel("");
 		label.setIcon(new ImageIcon("C:\\Users\\Jimkog\\workspace\\ML Project\\Pictures\\Untitled-2.png"));
-		label.setBounds(10, 11, 207, 129);
+		label.setBounds(26, 11, 207, 129);
 		frame.getContentPane().add(label);
+		
+		passwordFieldhr = new JPasswordField();
+		passwordFieldhr.setBounds(91, 193, 138, 33);
+		frame.getContentPane().add(passwordFieldhr);
 	}
 }
